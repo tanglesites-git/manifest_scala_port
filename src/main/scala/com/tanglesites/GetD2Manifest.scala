@@ -1,5 +1,7 @@
 package com.tanglesites
 
+import com.tanglesites.Common.*
+
 import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
 import os.Path
@@ -32,32 +34,30 @@ object ManifestHttpClient extends main {
   private def readManifest(path: os.Path): String =
     os.read(path)
 
-  def get_Manifest(): ujson.Value =
-    Environments.CURRENT_ENV match {
-      case Environments.PRODUCTION => {
-        val response: Response[String] = getHttpResponse()
+  def get_Manifest(env: Matchable): ujson.Value = env match
+    case Environments.PRODUCTION =>
+      val response: Response[String] = getHttpResponse()
 
-        val manifestJson = getJsonStruct(response.body)
+      val manifestJson = getJsonStruct(response.body)
 
-        response.code match {
-          case StatusCode.Ok =>
-            writeManifest(manifestJson)
-            println("File was written successfully")
-          case _ =>
-            println(s"Request failed with status code: ${response.code}")
-        }
-        manifestJson
+      response.code match {
+        case StatusCode.Ok =>
+          writeManifest(manifestJson)
+          println("File was written successfully")
+        case _ =>
+          println(s"Request failed with status code: ${response.code}")
       }
-      case Environments.DEVELOPMENT => {
-        val manifestJson = readManifest(
-          FilePaths.MANIFEST
-        )
-        getJsonStruct(manifestJson)
-      }
-      case _ =>
-        println(s"Unknown environment: ${Environments.CURRENT_ENV}")
-        ujson.Obj()
-    }
+      manifestJson
+
+    case Environments.DEVELOPMENT =>
+      val manifestJson = readManifest(
+        FilePaths.MANIFEST
+      )
+      getJsonStruct(manifestJson)
+
+    case _ =>
+      println(s"Unknown environment: ${Environments.CURRENT_ENV}")
+      ujson.Obj()
 
   def close(): Unit =
     backend.close()
