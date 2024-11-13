@@ -1,9 +1,9 @@
-package com.tanglesites
+package com.tanglesites.infrastructure
 
-import com.tanglesites.ManifestHttpClient.close
-import com.tanglesites.ManifestHttpClient.get_Manifest
-import com.tanglesites.Common.*
-import com.tanglesites.ManifestRoot.*
+import com.tanglesites.infrastructure.ManifestHttpClient.close
+import com.tanglesites.infrastructure.ManifestHttpClient.get_Manifest
+import com.tanglesites.kernal.Common.*
+import com.tanglesites.domain.*
 import upickle.default.*
 
 object ManifestPropertyService extends main {

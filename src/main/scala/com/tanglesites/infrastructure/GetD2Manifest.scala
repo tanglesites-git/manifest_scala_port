@@ -1,6 +1,6 @@
-package com.tanglesites
+package com.tanglesites.infrastructure
 
-import com.tanglesites.Common.*
+import com.tanglesites.kernal.Common.*
 
 import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory

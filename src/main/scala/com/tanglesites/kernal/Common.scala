@@ -1,4 +1,4 @@
-package com.tanglesites
+package com.tanglesites.kernal
 
 import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
