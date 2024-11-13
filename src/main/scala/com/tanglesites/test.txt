@@ -1,87 +1,90 @@
-case DestinyTable(tableName) if tableName == "DestinyArtDyeChannelDefinition" => component.DestinyArtDyeChannelDefinition
-case DestinyTable(tableName) if tableName == "DestinyArtDyeReferenceDefinition" => component.DestinyArtDyeReferenceDefinition
-case DestinyTable(tableName) if tableName == "DestinyPlaceDefinition" => component.DestinyPlaceDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityDefinition" => component.DestinyActivityDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityTypeDefinition" => component.DestinyActivityTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinyClassDefinition" => component.DestinyClassDefinition
-case DestinyTable(tableName) if tableName == "DestinyGenderDefinition" => component.DestinyGenderDefinition
-case DestinyTable(tableName) if tableName == "DestinyInventoryBucketDefinition" => component.DestinyInventoryBucketDefinition
-case DestinyTable(tableName) if tableName == "DestinyRaceDefinition" => component.DestinyRaceDefinition
-case DestinyTable(tableName) if tableName == "DestinyUnlockDefinition" => component.DestinyUnlockDefinition
-case DestinyTable(tableName) if tableName == "DestinyStatGroupDefinition" => component.DestinyStatGroupDefinition
-case DestinyTable(tableName) if tableName == "DestinyProgressionMappingDefinition" => component.DestinyProgressionMappingDefinition
-case DestinyTable(tableName) if tableName == "DestinyFactionDefinition" => component.DestinyFactionDefinition
-case DestinyTable(tableName) if tableName == "DestinyVendorGroupDefinition" => component.DestinyVendorGroupDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardSourceDefinition" => component.DestinyRewardSourceDefinition
-case DestinyTable(tableName) if tableName == "DestinyUnlockValueDefinition" => component.DestinyUnlockValueDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardMappingDefinition" => component.DestinyRewardMappingDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardSheetDefinition" => component.DestinyRewardSheetDefinition
-case DestinyTable(tableName) if tableName == "DestinyItemCategoryDefinition" => component.DestinyItemCategoryDefinition
-case DestinyTable(tableName) if tableName == "DestinyDamageTypeDefinition" => component.DestinyDamageTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityModeDefinition" => component.DestinyActivityModeDefinition
-case DestinyTable(tableName) if tableName == "DestinyMedalTierDefinition" => component.DestinyMedalTierDefinition
-case DestinyTable(tableName) if tableName == "DestinyAchievementDefinition" => component.DestinyAchievementDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityGraphDefinition" => component.DestinyActivityGraphDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityInteractableDefinition" => component.DestinyActivityInteractableDefinition
-case DestinyTable(tableName) if tableName == "DestinyBondDefinition" => component.DestinyBondDefinition
-case DestinyTable(tableName) if tableName == "DestinyCharacterCustomizationCategoryDefinition" => component.DestinyCharacterCustomizationCategoryDefinition
-case DestinyTable(tableName) if tableName == "DestinyCharacterCustomizationOptionDefinition" => component.DestinyCharacterCustomizationOptionDefinition
-case DestinyTable(tableName) if tableName == "DestinyCollectibleDefinition" => component.DestinyCollectibleDefinition
-case DestinyTable(tableName) if tableName == "DestinyDestinationDefinition" => component.DestinyDestinationDefinition
-case DestinyTable(tableName) if tableName == "DestinyEntitlementOfferDefinition" => component.DestinyEntitlementOfferDefinition
-case DestinyTable(tableName) if tableName == "DestinyEquipmentSlotDefinition" => component.DestinyEquipmentSlotDefinition
-case DestinyTable(tableName) if tableName == "DestinyEventCardDefinition" => component.DestinyEventCardDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderActivityGraphDefinition" => component.DestinyFireteamFinderActivityGraphDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderActivitySetDefinition" => component.DestinyFireteamFinderActivitySetDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderLabelDefinition" => component.DestinyFireteamFinderLabelDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderLabelGroupDefinition" => component.DestinyFireteamFinderLabelGroupDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderOptionDefinition" => component.DestinyFireteamFinderOptionDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderOptionGroupDefinition" => component.DestinyFireteamFinderOptionGroupDefinition
-case DestinyTable(tableName) if tableName == "DestinyStatDefinition" => component.DestinyStatDefinition
-case DestinyTable(tableName) if tableName == "DestinyInventoryItemDefinition" => component.DestinyInventoryItemDefinition
-case DestinyTable(tableName) if tableName == "DestinyInventoryItemLiteDefinition" => component.DestinyInventoryItemLiteDefinition
-case DestinyTable(tableName) if tableName == "DestinyItemTierTypeDefinition" => component.DestinyItemTierTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinyLoadoutColorDefinition" => component.DestinyLoadoutColorDefinition
-case DestinyTable(tableName) if tableName == "DestinyLoadoutIconDefinition" => component.DestinyLoadoutIconDefinition
-case DestinyTable(tableName) if tableName == "DestinyLoadoutNameDefinition" => component.DestinyLoadoutNameDefinition
-case DestinyTable(tableName) if tableName == "DestinyLocationDefinition" => component.DestinyLocationDefinition
-case DestinyTable(tableName) if tableName == "DestinyLoreDefinition" => component.DestinyLoreDefinition
-case DestinyTable(tableName) if tableName == "DestinyMaterialRequirementSetDefinition" => component.DestinyMaterialRequirementSetDefinition
-case DestinyTable(tableName) if tableName == "DestinyMetricDefinition" => component.DestinyMetricDefinition
-case DestinyTable(tableName) if tableName == "DestinyObjectiveDefinition" => component.DestinyObjectiveDefinition
-case DestinyTable(tableName) if tableName == "DestinySandboxPerkDefinition" => component.DestinySandboxPerkDefinition
-case DestinyTable(tableName) if tableName == "DestinyPlatformBucketMappingDefinition" => component.DestinyPlatformBucketMappingDefinition
-case DestinyTable(tableName) if tableName == "DestinyPlugSetDefinition" => component.DestinyPlugSetDefinition
-case DestinyTable(tableName) if tableName == "DestinyPowerCapDefinition" => component.DestinyPowerCapDefinition
-case DestinyTable(tableName) if tableName == "DestinyPresentationNodeDefinition" => component.DestinyPresentationNodeDefinition
-case DestinyTable(tableName) if tableName == "DestinyProgressionDefinition" => component.DestinyProgressionDefinition
-case DestinyTable(tableName) if tableName == "DestinyProgressionLevelRequirementDefinition" => component.DestinyProgressionLevelRequirementDefinition
-case DestinyTable(tableName) if tableName == "DestinyRecordDefinition" => component.DestinyRecordDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardAdjusterPointerDefinition" => component.DestinyRewardAdjusterPointerDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardAdjusterProgressionMapDefinition" => component.DestinyRewardAdjusterProgressionMapDefinition
-case DestinyTable(tableName) if tableName == "DestinyRewardItemListDefinition" => component.DestinyRewardItemListDefinition
-case DestinyTable(tableName) if tableName == "DestinySackRewardItemListDefinition" => component.DestinySackRewardItemListDefinition
-case DestinyTable(tableName) if tableName == "DestinySandboxPatternDefinition" => component.DestinySandboxPatternDefinition
-case DestinyTable(tableName) if tableName == "DestinySeasonDefinition" => component.DestinySeasonDefinition
-case DestinyTable(tableName) if tableName == "DestinySeasonPassDefinition" => component.DestinySeasonPassDefinition
-case DestinyTable(tableName) if tableName == "DestinySocialCommendationDefinition" => component.DestinySocialCommendationDefinition
-case DestinyTable(tableName) if tableName == "DestinySocketCategoryDefinition" => component.DestinySocketCategoryDefinition
-case DestinyTable(tableName) if tableName == "DestinySocketTypeDefinition" => component.DestinySocketTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinyTraitDefinition" => component.DestinyTraitDefinition
-case DestinyTable(tableName) if tableName == "DestinyUnlockCountMappingDefinition" => component.DestinyUnlockCountMappingDefinition
-case DestinyTable(tableName) if tableName == "DestinyUnlockEventDefinition" => component.DestinyUnlockEventDefinition
-case DestinyTable(tableName) if tableName == "DestinyUnlockExpressionMappingDefinition" => component.DestinyUnlockExpressionMappingDefinition
-case DestinyTable(tableName) if tableName == "DestinyVendorDefinition" => component.DestinyVendorDefinition
-case DestinyTable(tableName) if tableName == "DestinyMilestoneDefinition" => component.DestinyMilestoneDefinition
-case DestinyTable(tableName) if tableName == "DestinyActivityModifierDefinition" => component.DestinyActivityModifierDefinition
-case DestinyTable(tableName) if tableName == "DestinyReportReasonCategoryDefinition" => component.DestinyReportReasonCategoryDefinition
-case DestinyTable(tableName) if tableName == "DestinyArtifactDefinition" => component.DestinyArtifactDefinition
-case DestinyTable(tableName) if tableName == "DestinyBreakerTypeDefinition" => component.DestinyBreakerTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinyChecklistDefinition" => component.DestinyChecklistDefinition
-case DestinyTable(tableName) if tableName == "DestinyEnergyTypeDefinition" => component.DestinyEnergyTypeDefinition
-case DestinyTable(tableName) if tableName == "DestinySocialCommendationNodeDefinition" => component.DestinySocialCommendationNodeDefinition
-case DestinyTable(tableName) if tableName == "DestinyGuardianRankDefinition" => component.DestinyGuardianRankDefinition
-case DestinyTable(tableName) if tableName == "DestinyGuardianRankConstantsDefinition" => component.DestinyGuardianRankConstantsDefinition
-case DestinyTable(tableName) if tableName == "DestinyLoadoutConstantsDefinition" => component.DestinyLoadoutConstantsDefinition
-case DestinyTable(tableName) if tableName == "DestinyFireteamFinderConstantsDefinition" => component.DestinyFireteamFinderConstantsDefinition
-case DestinyTable(tableName) if tableName == "DestinyGlobalConstantsDefinitio" => component.DestinyGlobalConstantsDefinitio
+en, fr, es, es-mx, de, it, ja, pt-br, ru, pl, ko, zh-cht, zh-chs
+
+
+"DestinyArtDyeChannelDefinition",
+"DestinyArtDyeReferenceDefinition",
+"DestinyPlaceDefinition",
+"DestinyActivityDefinition",
+"DestinyActivityTypeDefinition",
+"DestinyClassDefinition",
+"DestinyGenderDefinition",
+"DestinyInventoryBucketDefinition",
+"DestinyRaceDefinition",
+"DestinyUnlockDefinition",
+"DestinyStatGroupDefinition",
+"DestinyProgressionMappingDefinition",
+"DestinyFactionDefinition",
+"DestinyVendorGroupDefinition",
+"DestinyRewardSourceDefinition",
+"DestinyUnlockValueDefinition",
+"DestinyRewardMappingDefinition",
+"DestinyRewardSheetDefinition",
+"DestinyItemCategoryDefinition",
+"DestinyDamageTypeDefinition",
+"DestinyActivityModeDefinition",
+"DestinyMedalTierDefinition",
+"DestinyAchievementDefinition",
+"DestinyActivityGraphDefinition",
+"DestinyActivityInteractableDefinition",
+"DestinyBondDefinition",
+"DestinyCharacterCustomizationCategoryDefinition",
+"DestinyCharacterCustomizationOptionDefinition",
+"DestinyCollectibleDefinition",
+"DestinyDestinationDefinition",
+"DestinyEntitlementOfferDefinition",
+"DestinyEquipmentSlotDefinition",
+"DestinyEventCardDefinition",
+"DestinyFireteamFinderActivityGraphDefinition",
+"DestinyFireteamFinderActivitySetDefinition",
+"DestinyFireteamFinderLabelDefinition",
+"DestinyFireteamFinderLabelGroupDefinition",
+"DestinyFireteamFinderOptionDefinition",
+"DestinyFireteamFinderOptionGroupDefinition",
+"DestinyStatDefinition",
+"DestinyInventoryItemDefinition",
+"DestinyInventoryItemLiteDefinition",
+"DestinyItemTierTypeDefinition",
+"DestinyLoadoutColorDefinition",
+"DestinyLoadoutIconDefinition",
+"DestinyLoadoutNameDefinition",
+"DestinyLocationDefinition",
+"DestinyLoreDefinition",
+"DestinyMaterialRequirementSetDefinition",
+"DestinyMetricDefinition",
+"DestinyObjectiveDefinition",
+"DestinySandboxPerkDefinition",
+"DestinyPlatformBucketMappingDefinition",
+"DestinyPlugSetDefinition",
+"DestinyPowerCapDefinition",
+"DestinyPresentationNodeDefinition",
+"DestinyProgressionDefinition",
+"DestinyProgressionLevelRequirementDefinition",
+"DestinyRecordDefinition",
+"DestinyRewardAdjusterPointerDefinition",
+"DestinyRewardAdjusterProgressionMapDefinition",
+"DestinyRewardItemListDefinition",
+"DestinySackRewardItemListDefinition",
+"DestinySandboxPatternDefinition",
+"DestinySeasonDefinition",
+"DestinySeasonPassDefinition",
+"DestinySocialCommendationDefinition",
+"DestinySocketCategoryDefinition",
+"DestinySocketTypeDefinition",
+"DestinyTraitDefinition",
+"DestinyUnlockCountMappingDefinition",
+"DestinyUnlockEventDefinition",
+"DestinyUnlockExpressionMappingDefinition",
+"DestinyVendorDefinition",
+"DestinyMilestoneDefinition",
+"DestinyActivityModifierDefinition",
+"DestinyReportReasonCategoryDefinition",
+"DestinyArtifactDefinition",
+"DestinyBreakerTypeDefinition",
+"DestinyChecklistDefinition",
+"DestinyEnergyTypeDefinition",
+"DestinySocialCommendationNodeDefinition",
+"DestinyGuardianRankDefinition",
+"DestinyGuardianRankConstantsDefinition",
+"DestinyLoadoutConstantsDefinition",
+"DestinyFireteamFinderConstantsDefinition",
+DestinyGlobalConstantsDefinition,

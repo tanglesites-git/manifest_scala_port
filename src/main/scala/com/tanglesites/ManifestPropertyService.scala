@@ -261,4 +261,190 @@ object ManifestPropertyService extends main {
         )
         ""
 
+  def JsonWorldComponentContentTables(
+      tableName: String,
+      lang: String
+  ): String =
+    val component: DestinyTable = JsonWorldComponentContentPaths(lang)
+    tableName match
+      case "DestinyArtDyeChannelDefinition" =>
+        component.DestinyArtDyeChannelDefinition
+      case "DestinyArtDyeReferenceDefinition" =>
+        component.DestinyArtDyeReferenceDefinition
+      case "DestinyPlaceDefinition" =>
+        component.DestinyPlaceDefinition
+      case "DestinyActivityDefinition" =>
+        component.DestinyActivityDefinition
+      case "DestinyActivityTypeDefinition" =>
+        component.DestinyActivityTypeDefinition
+      case "DestinyClassDefinition" =>
+        component.DestinyClassDefinition
+      case "DestinyGenderDefinition" =>
+        component.DestinyGenderDefinition
+      case "DestinyInventoryBucketDefinition" =>
+        component.DestinyInventoryBucketDefinition
+      case "DestinyRaceDefinition" =>
+        component.DestinyRaceDefinition
+      case "DestinyUnlockDefinition" =>
+        component.DestinyUnlockDefinition
+      case "DestinyStatGroupDefinition" =>
+        component.DestinyStatGroupDefinition
+      case "DestinyProgressionMappingDefinition" =>
+        component.DestinyProgressionMappingDefinition
+      case "DestinyFactionDefinition" =>
+        component.DestinyFactionDefinition
+      case "DestinyVendorGroupDefinition" =>
+        component.DestinyVendorGroupDefinition
+      case "DestinyRewardSourceDefinition" =>
+        component.DestinyRewardSourceDefinition
+      case "DestinyUnlockValueDefinition" =>
+        component.DestinyUnlockValueDefinition
+      case "DestinyRewardMappingDefinition" =>
+        component.DestinyRewardMappingDefinition
+      case "DestinyRewardSheetDefinition" =>
+        component.DestinyRewardSheetDefinition
+      case "DestinyItemCategoryDefinition" =>
+        component.DestinyItemCategoryDefinition
+      case "DestinyDamageTypeDefinition" =>
+        component.DestinyDamageTypeDefinition
+      case "DestinyActivityModeDefinition" =>
+        component.DestinyActivityModeDefinition
+      case "DestinyMedalTierDefinition" =>
+        component.DestinyMedalTierDefinition
+      case "DestinyAchievementDefinition" =>
+        component.DestinyAchievementDefinition
+      case "DestinyActivityGraphDefinition" =>
+        component.DestinyActivityGraphDefinition
+      case "DestinyActivityInteractableDefinition" =>
+        component.DestinyActivityInteractableDefinition
+      case "DestinyBondDefinition" =>
+        component.DestinyBondDefinition
+      case "DestinyCharacterCustomizationCategoryDefinition" =>
+        component.DestinyCharacterCustomizationCategoryDefinition
+      case "DestinyCharacterCustomizationOptionDefinition" =>
+        component.DestinyCharacterCustomizationOptionDefinition
+      case "DestinyCollectibleDefinition" =>
+        component.DestinyCollectibleDefinition
+      case "DestinyDestinationDefinition" =>
+        component.DestinyDestinationDefinition
+      case "DestinyEntitlementOfferDefinition" =>
+        component.DestinyEntitlementOfferDefinition
+      case "DestinyEquipmentSlotDefinition" =>
+        component.DestinyEquipmentSlotDefinition
+      case "DestinyEventCardDefinition" =>
+        component.DestinyEventCardDefinition
+      case "DestinyFireteamFinderActivityGraphDefinition" =>
+        component.DestinyFireteamFinderActivityGraphDefinition
+      case "DestinyFireteamFinderActivitySetDefinition" =>
+        component.DestinyFireteamFinderActivitySetDefinition
+      case "DestinyFireteamFinderLabelDefinition" =>
+        component.DestinyFireteamFinderLabelDefinition
+      case "DestinyFireteamFinderLabelGroupDefinition" =>
+        component.DestinyFireteamFinderLabelGroupDefinition
+      case "DestinyFireteamFinderOptionDefinition" =>
+        component.DestinyFireteamFinderOptionDefinition
+      case "DestinyFireteamFinderOptionGroupDefinition" =>
+        component.DestinyFireteamFinderOptionGroupDefinition
+      case "DestinyStatDefinition" =>
+        component.DestinyStatDefinition
+      case "DestinyInventoryItemDefinition" =>
+        component.DestinyInventoryItemDefinition
+      case "DestinyInventoryItemLiteDefinition" =>
+        component.DestinyInventoryItemLiteDefinition
+      case "DestinyItemTierTypeDefinition" =>
+        component.DestinyItemTierTypeDefinition
+      case "DestinyLoadoutColorDefinition" =>
+        component.DestinyLoadoutColorDefinition
+      case "DestinyLoadoutIconDefinition" =>
+        component.DestinyLoadoutIconDefinition
+      case "DestinyLoadoutNameDefinition" =>
+        component.DestinyLoadoutNameDefinition
+      case "DestinyLocationDefinition" =>
+        component.DestinyLocationDefinition
+      case "DestinyLoreDefinition" =>
+        component.DestinyLoreDefinition
+      case "DestinyMaterialRequirementSetDefinition" =>
+        component.DestinyMaterialRequirementSetDefinition
+      case "DestinyMetricDefinition" =>
+        component.DestinyMetricDefinition
+      case "DestinyObjectiveDefinition" =>
+        component.DestinyObjectiveDefinition
+      case "DestinySandboxPerkDefinition" =>
+        component.DestinySandboxPerkDefinition
+      case "DestinyPlatformBucketMappingDefinition" =>
+        component.DestinyPlatformBucketMappingDefinition
+      case "DestinyPlugSetDefinition" =>
+        component.DestinyPlugSetDefinition
+      case "DestinyPowerCapDefinition" =>
+        component.DestinyPowerCapDefinition
+      case "DestinyPresentationNodeDefinition" =>
+        component.DestinyPresentationNodeDefinition
+      case "DestinyProgressionDefinition" =>
+        component.DestinyProgressionDefinition
+      case "DestinyProgressionLevelRequirementDefinition" =>
+        component.DestinyProgressionLevelRequirementDefinition
+      case "DestinyRecordDefinition" =>
+        component.DestinyRecordDefinition
+      case "DestinyRewardAdjusterPointerDefinition" =>
+        component.DestinyRewardAdjusterPointerDefinition
+      case "DestinyRewardAdjusterProgressionMapDefinition" =>
+        component.DestinyRewardAdjusterProgressionMapDefinition
+      case "DestinyRewardItemListDefinition" =>
+        component.DestinyRewardItemListDefinition
+      case "DestinySackRewardItemListDefinition" =>
+        component.DestinySackRewardItemListDefinition
+      case "DestinySandboxPatternDefinition" =>
+        component.DestinySandboxPatternDefinition
+      case "DestinySeasonDefinition" =>
+        component.DestinySeasonDefinition
+      case "DestinySeasonPassDefinition" =>
+        component.DestinySeasonPassDefinition
+      case "DestinySocialCommendationDefinition" =>
+        component.DestinySocialCommendationDefinition
+      case "DestinySocketCategoryDefinition" =>
+        component.DestinySocketCategoryDefinition
+      case "DestinySocketTypeDefinition" =>
+        component.DestinySocketTypeDefinition
+      case "DestinyTraitDefinition" =>
+        component.DestinyTraitDefinition
+      case "DestinyUnlockCountMappingDefinition" =>
+        component.DestinyUnlockCountMappingDefinition
+      case "DestinyUnlockEventDefinition" =>
+        component.DestinyUnlockEventDefinition
+      case "DestinyUnlockExpressionMappingDefinition" =>
+        component.DestinyUnlockExpressionMappingDefinition
+      case "DestinyVendorDefinition" =>
+        component.DestinyVendorDefinition
+      case "DestinyMilestoneDefinition" =>
+        component.DestinyMilestoneDefinition
+      case "DestinyActivityModifierDefinition" =>
+        component.DestinyActivityModifierDefinition
+      case "DestinyReportReasonCategoryDefinition" =>
+        component.DestinyReportReasonCategoryDefinition
+      case "DestinyArtifactDefinition" =>
+        component.DestinyArtifactDefinition
+      case "DestinyBreakerTypeDefinition" =>
+        component.DestinyBreakerTypeDefinition
+      case "DestinyChecklistDefinition" =>
+        component.DestinyChecklistDefinition
+      case "DestinyEnergyTypeDefinition" =>
+        component.DestinyEnergyTypeDefinition
+      case "DestinySocialCommendationNodeDefinition" =>
+        component.DestinySocialCommendationNodeDefinition
+      case "DestinyGuardianRankDefinition" =>
+        component.DestinyGuardianRankDefinition
+      case "DestinyGuardianRankConstantsDefinition" =>
+        component.DestinyGuardianRankConstantsDefinition
+      case "DestinyLoadoutConstantsDefinition" =>
+        component.DestinyLoadoutConstantsDefinition
+      case "DestinyFireteamFinderConstantsDefinition" =>
+        component.DestinyFireteamFinderConstantsDefinition
+      case "DestinyGlobalConstantsDefinition" =>
+        component.DestinyGlobalConstantsDefinition
+      case null =>
+        println(
+          s"Table Name: $tableName does not exist with respect to language: $lang"
+        )
+        ""
+
 }
